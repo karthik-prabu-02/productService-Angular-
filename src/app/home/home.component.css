@@ -1,0 +1,43 @@
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa; /* Light background */
+}
+
+h2, h3 {
+    color: #343a40; /* Dark text color */
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue focus */
+    border-color: #007bff;
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.form-container .border {
+    border: 2px solid #6c757d; /* Dark gray border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 2rem;
+    background-color: #ffffff; /* White background inside border */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
